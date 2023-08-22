@@ -1,2 +1,2 @@
 # Projeto-Interface-Netflix
-clone netflix
+CLONE DA PÁGINA INICIAL DA NETFLIX
