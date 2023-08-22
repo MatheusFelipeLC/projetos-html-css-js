@@ -1,0 +1,602 @@
+body  {
+ font-family: 'Open Sans', sans-serif, helvetica;
+  color: #777;
+  line-height: 1.5;
+  
+}
+
+main{
+    height: 80%;
+    margin: auto;
+}
+
+.main-header{
+    position: fixed;
+    width: 35%;
+    height: 100%;
+    background-image:url(../images/bg.jpg);
+    text-align: right;
+    font-size: 9px;
+    background-size: cover;
+    background-position: bottom left;
+
+}
+
+.main-header-link img{
+    border-radius: 50%;
+    padding: 70px 45px 70px;
+}
+
+.main-header h1{
+    margin-right: 40px;
+    position: relative;
+    bottom: 50px;
+    font-size: 18px;
+    
+}
+
+.main-header strong{
+    
+    color: white
+}
+
+
+.site-svm p,a{
+    font-size: 15px;
+    color:rgba(31,31,31, 0.5);
+}
+
+.site-svm a:hover{
+    color: #49bf9d;
+}
+.icon-sociais li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 12px;
+    position: relative;
+    top:270px;
+    right: 50px;
+}
+
+.copy-header{
+    
+    position: relative;
+    top:260px;
+    right: 50px;
+    font-size: 11px;
+    
+}
+
+.copy-header a {
+   color:#777;
+   font-size: 11px;
+}
+
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 120px 45px 120px 45px;
+    box-sizing: border-box;
+   
+}
+
+.main-content-section a{
+    
+    display: inline-block;
+    border: 2px solid #ddd9ce;
+    margin: 20px 0px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    
+    
+}
+
+
+.card{
+    width: 35%;
+    float: left;
+    overflow: visible;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    border-radius: 15px;
+    
+}
+
+.card-svm, .card-nacional, .card-esmaltec {
+    
+    position: relative;
+    left:150px;
+    margin-left: 50px;
+  
+ 
+}
+
+.card-geq{
+    clear: both;
+}
+
+.card-indaia{
+    clear: both
+}
+
+
+.portifolio{
+    display: block;
+    width: 180px;
+    padding: 8px 4px;
+    clear: both;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+    
+}
+
+.form-nome,.form-email{
+    
+    float: left;
+    margin:0px 0px 15px 15px;
+   
+}
+
+.input-nome, .input-email, .text-msg{
+    border-radius: 5px;
+    padding: 12px;
+    background-color: lightgray;
+    border-color: transparent;
+}
+
+
+.form-msg{
+    margin: 17px;
+    clear: left;
+    
+}
+
+.input-enviar{
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: white;
+    border: 2px solid #ddd9ce;
+    
+}
+
+address{
+    position: relative;
+    bottom: 300px;
+    left: 550px;
+    font-size: 14px;
+}
+
+.elements{
+    position: relative;
+    bottom:100px;
+}
+
+blockquote{
+    border-left: 2px solid #ddd9ce;
+}
+
+.elements p{
+    font-size: 13px;
+}
+
+.elements code{
+    background-color: #ddd9ce;
+}
+
+.elements a{
+    color: mediumseagreen;
+}
+
+.preform{
+    position: relative;
+    bottom:100px;
+}
+
+.preform pre{
+     width: 800px;
+     height: 100px;
+     border-radius: 5px;
+     border: 2px solid #ddd9ce;
+    font-size: 13px;
+}
+
+.preform .code{
+   margin: 0px 0px 0px 50px
+}
+
+.lista{
+    position: relative;
+    bottom: 100px;
+}
+
+.h3-alternate{
+ position: relative;
+ left: 300px;
+ bottom: 265px;
+}
+
+.ul-alternate{
+ position: relative;
+ left: 260px;
+ bottom: 265px;
+ list-style: none;
+}
+
+#li-alternate{
+    border-bottom:  2px solid #ddd9ce;
+    width: 500px;
+}
+.icones{
+    position: relative;
+    left: 295px;
+    bottom:380px;   
+}
+
+.ul-icones{
+     position: relative;
+     left: 250px;
+     bottom:380px;
+}
+
+.ul-icones li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.action{
+    position: relative;
+    bottom: 320px;
+}
+
+.action .button-default{
+    display: inline-block;
+    width: 50px;
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+   
+}
+
+.action .button-default-stroke{
+    display: inline-block;
+    width: 50px;
+    padding: 15px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 12px;
+}
+
+.action .button-default-button-default-small{
+    display: inline-block;
+    width: 40px;
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 10px;   
+}
+
+.action .button-default-button-default-small-button-default-stroke{
+    display: inline-block;
+    width: 40px;
+    padding: 15px;
+    border: 2px solid  #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    font-size: 10px;       
+}
+
+.action .button-default-button-default-full{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+}
+
+.action .button-default-button-default-full-button-default-stroke{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 12px;   
+}
+
+.action .button-default-button-default-full-button-default-small{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 10px;
+}
+
+.action .button-default-button-default-full-button-default-small-button-default-stroke{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 10px;   
+}
+
+.action-default{
+  position: relative;
+  left: 250px;
+  bottom:130px;
+}
+
+.table{
+    position: relative;
+    bottom: 400px;
+}
+
+.table-default{
+    height: 250px;
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.table-default thead{
+    background: #ddd9ce;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.table-default #linha-default{
+    background: lightgray;
+    border-bottom: 1px solid  #c0c0c0;
+    border-top: 1px solid  #c0c0c0;
+}
+
+.table-default tfoot{
+    border-top: 2px solid black;
+}
+
+.table-alternate{
+    border-collapse: collapse;
+    height: 250px;
+    width: 900px;   
+}
+
+.table-alternate thead{
+    background: #ddd9ce;
+    text-align: left;
+}
+
+.table-alternate #linha-alternate{
+    background: lightgray;  
+}
+
+.table-alternate td{
+     border: 1px solid  #c0c0c0;
+    text-indent: 0.5em;    
+}
+
+.buttons{
+    position: relative;
+    bottom: 320px;
+}
+
+.buttons .button-default{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+}
+
+.buttons .button-default-stroke{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 12px;
+    
+}
+
+.buttons .button-default-button-default-small{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 10px;   
+}
+
+.buttons .button-default-button-default-small-button-default-stroke{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border: 2px solid  #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    font-size: 10px;       
+}
+
+.buttons .button-default-button-default-full{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+}
+
+.buttons .button-default-button-default-full-button-default-stroke{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 12px;   
+}
+
+.buttons .button-default-button-default-full-button-defaul-small{
+    display: block;
+    width: 60px;
+    height: 30px;
+    border: 2px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 10px;
+}
+
+.buttons .button-default-button-default-full-button-default-small-button-default-stroke{
+    display: block;
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 10px;   
+}
+
+.forms{
+    position: relative;
+    bottom: 300px;
+}
+
+.forms input{
+    margin: 10px 0 10px 0;
+}
+
+.forms #user,#email, .form-selecao{
+    height: 40px;
+    width: 900px;
+    border-radius: 5px;
+    background: lightgray
+}
+
+.forms #form-radio, #form-check{
+    display: block;
+}
+
+.forms .form-text{
+    height: 150px;
+    width: 900px;
+    border-radius: 5px;
+    background: lightgray
+}
+
+.forms .button-default{
+      display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 12px;
+}
+
+.forms .button-default-stroke{
+     display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #ddd9ce;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+    background-color:white;
+    font-size: 12px;  
+}
+
+.pictures{
+    position: relative;
+    bottom: 300;
+}
+
+.pictures .imagens-full img{
+    border-radius: 3px;
+    margin:0px 0px 5px 5px;
+    width: 870px;
+}
+
+.pictures .imagens-thumbs img{
+    width: 285px;
+    margin: 5px  0px 5px 5px;
+    overflow: auto;
+    box-sizing: border-box; 
+    border-radius: 3px; 
+}
+
+.LeftRight{
+    position: relative;
+    bottom: 300px;
+}
